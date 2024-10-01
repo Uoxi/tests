@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="Images/Logo_Association_Junior_Projet_-removebg-preview.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Association Junior Projet</title>
+    <link rel="stylesheet" href="style.css"> <!-- Correction de "stle.css" en "style.css" -->
+</head>
+<body>
+    <header>
+        <img src="Images/Logo_Association_Junior_Projet_-removebg-preview.png" alt="Logo de l'association" class="logo">
+        <div class="container">
+            <h1>Association Junior Projet</h1>
+            <a href="https://www.paypal.com/donate/?hosted_button_id=2BU469T9VV5MQ" class="don-btn">Faire un don</a> <!-- Bouton de don ajouté ici -->
+            <nav>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="A propos.html">À propos</a></li>
+                    <li><a href="#evenements">Événements</a></li>
+                    <li><a href="https://www.google.com/search?q=Association+Junior+Projet&stick=H4sIAAAAAAAA_-NgU1I1qDBJMjIwTEs1TDNNNklLTTS2MqhItTBLszA2NE81STI0NzdJWsQq6VhcnJ-cmViSmZ-n4FWal5lfpBBQlJ-VWgIAEKJ62EUAAAA&hl=fr&mat=CZI87ieDr9RTElcBEKoLaaYbMMf3GB4KFSxMo3-qjEJrOp6NPhss-ydoN-r8VBfeh0BB69P9LNa51G7s1N9GjFk8UQ1h-iV-TNhynLoOGqwfbDyxW8Kg2CiOxAe1Ag9Llas&authuser=0">Retrouvez-Nous</a></li>
+                    <li><a href="Nos Réseaux.html"></a></li>
+                    <li><a href="#contact">Nous Contacter</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <script>
+        const menuToggle = document.getElementById('menu-toggle');
+        const navLinks = document.getElementById('nav-links');
+    
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+
+    <section id="accueil" class="hero">
+        <div class="container">
+            <h2>Bienvenue sur le site de l'Association Junior Projet</h2>
+            <p>Découvrez notre Association, riche en histoire et culture.</p>
+        </div>
+    </section>
+
+    <section id="a-propos">
+        <div class="container">
+            <h2>À propos de l'Association Junior Projet</h2>
+            <p>Créée en 2019, l'association Junior Projet est une association à but non lucratif dont la mission principale est de venir en aide aux personnes en situation de précarité. Basée à Sevran, l’association agit sur tout l'île de France.</p>
+            <p>Nos actions s’articulent autour de deux axes principaux :</p>
+            <ol>
+                <li><strong>Aide alimentaire :</strong> Nous organisons des distributions de repas et de denrées alimentaires aux personnes sans domicile ou en difficulté.</li>
+                <li><strong>Animation :</strong> Notre équipes proposent des animations dans les quartiers les plus défavoriser</li>
+            </ol>
+            <p><strong>Junior Projet</strong> se distingue par son approche humaine et participative, en plaçant chaque bénéficiaire au cœur de son projet. L’association fonctionne grâce aux dons et au soutien des villes, cités éducatives et institutions partenaires.</p>
+            <p>Nous croyons en une société plus juste et solidaire, où chacun a sa place. Rejoignez-nous pour faire la différence !</p>
+        </div>
+    </section>
+
+    <section id="evenements" class="events">
+        <div class="container">
+            <h2>Événements à venir</h2>
+            <ul>
+                <li><strong>Fête de quartier Sevran</strong> - 05 Octobre 2024</li>
+                <li><strong>Maraude à Paris</strong> - Prochainement</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contactez-nous</h2>
+            <p>Pour toute information,<p>
+            <p>Contactez l'Association Junior Projet.</p>
+            <address>
+                <strong>Adresse :</strong> 1 Allée Marco Polo, 93270 Sevran<br>
+                <strong>Téléphone :</strong> 07 68 37 11 92<br>
+                <strong>Email :</strong> <a href="mailto:assoc.juniorprojet@aol.com">assoc.juniorprojet@aol.com</a>
+            </address>
+            <form action="https://api.web3forms.com/submit" method="POST">
+
+                <input type="hidden" name="access_key" value="d33fe58c-5e3a-42c2-a7f4-2a8db2c4eb56">
+
+                <label for="name">Nom:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Envoyer</button>
+            </form>
+            <div class="social-links"></div>
+                <a href="https://www.facebook.com" class="social-link" target="_blank">
+                    <img src="https://img.icons8.com/ios-filled/50/0056b3/facebook-new.png" alt="Facebook">
+                </a>
+                <a href="https://www.twitter.com" class="social-link" target="_blank">
+                    <img src="Images/tiktok-5962992_1280.webp" alt="Tiktok">
+                </a>
+                <a href="https://www.instagram.com" class="social-link" target="_blank">
+                    <img src="Images/Instagram_icon.png.webp" alt="Instagram">
+                </a>
+                <a href="https://www.youtube.com" class="social-link" target="_blank">
+                    <img src="Images/png-logo-youtube.png" alt="YouTube">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="partenaires" class="partenaires">
+        <div class="container">
+            <h2>Nos Partenaires & Collaborateurs :</h2>
+            <img src="Images/Logo-JA-RNJA.png" alt="Partenaire 1" width="100" height="50">
+            <img src="Images/images.png" alt="Partenaire 2" width="80" height="100">
+            <img src="Images/mdq.jpg" alt="Partenaire 3" width="100" height="100">
+            <img src="Images/micro_folie logo.png" alt="Partenaire 4" width="100" height="100">
+            <img src="Images/arrimages.png" alt="Partenaire 5" width="100" height="50">
+            <img src="Images/Otacos_logo.svg-2.png" alt="Partenaire 6" width="100" height="100">
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Association Junior Projet - Tous droits réservés.</p>
+        </div>
+    </footer>
+</body>
+</html>
